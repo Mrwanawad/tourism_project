@@ -31,6 +31,10 @@ title_1 = Label(window, text = 'enter the country you\n want to travel to', fg =
                 font = ('times new roman', 25))
 title_1.place( x = 10, y = 100 )
 
+title_2 = Label(window, text = 'Hello from github', fg = 'blue',
+                font = ('times new roman', 25))
+title_2.place( x = 500, y = 250 )
+
 user_entry = Entry(window, fg = 'black', bg = 'yellow',
                 font = ('times new roman', 25) )
 user_entry.place( x = 300, y = 100 )
